@@ -1,0 +1,62 @@
+
+       
+   header {
+   	        background: #a6a6a6;
+            }
+
+   ul {
+    list-style: none; /* Для списка убираем маркеры */
+    padding-bottom: 20px; /* Убираем поля вокруг текста */
+    font-family: Arial, sans-serif; /* Рубленый шрифт для текста меню */
+    color: black;
+    }
+   li ul {
+    position: absolute; /* Подменю позиционируются абсолютно */
+    display: none; /* Скрываем подменю */
+    margin-top: 5px; /* Сдвигаем подменю вверх */
+   }
+   li a {
+    display: block; /* Ссылка как блочный элемент */
+    padding: 2px; /* Поля вокруг надписи */
+    text-decoration: none; /* Подчеркивание у ссылок убираем */
+    background-color: #a6a6a6; /* Цвет фона */
+    border-bottom: none; /* Границу снизу не проводим */
+    color: white;/* Цвет текста */
+   }
+   li a:hover {
+    color: black; /* Цвет текста активного пункта */
+    background-color: #5488af; /* Цвет фона активного пункта */
+    font-weight: 600; /* Жирное начертание */
+   }
+
+  body *{text-decoration: none;
+         }
+
+  p {font-family: arial;
+    	color: white;
+    	background: #a6a6a6;
+ 		text-align: justify;
+ 		padding: 6px;
+ 		margin: 2px;
+ 		height: 90px;
+    	line-height: 16px;
+    	text-decoration: none;
+        }
+
+   h3 {text-align: center;
+  	background: none;
+  	color: black;
+      }
+
+   footer {font-family: arial;
+       color: black;
+       background: #a6a6a6;
+       text-align: justify;
+       padding: 6px;
+       margin:2px;
+       margin-top: 25px;
+       height: 90px;
+       line-height: 16px;
+       text-decoration: none;
+   }
+   .form-row {margin: 30px;}
